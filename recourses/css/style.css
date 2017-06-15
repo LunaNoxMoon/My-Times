@@ -1,3 +1,31 @@
+.top-story h2{
+  background-image: url("https://github.com/LunaNoxMoon/My-Times/blob/master/recourses/images/img-news-bite.png");
+}
+
 p{
-  color: orange;
+
+}
+
+.header{
+  display: inline-flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.logo{
+  color: MediumAquamarine;
+}
+
+.news{
+  border: 5px solid black;
+}
+
+a{
+  color: black;
+  display: flex;
+}
+
+nav{
+  display: inline-block;
 }
