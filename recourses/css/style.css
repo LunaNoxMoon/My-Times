@@ -1,31 +1,50 @@
-.top-story h2{
-  background-image: url("https://github.com/LunaNoxMoon/My-Times/blob/master/recourses/images/img-news-bite.png");
+body{
+  display: block;
+  margin: 0;
 }
 
-p{
-
-}
-
-.header{
-  display: inline-flex;
+header{
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 80px;
+  border-bottom: 1px solid black;
+  background-color: white;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  order: 1px solid black
 }
 
 .logo{
-  color: MediumAquamarine;
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 30px;
 }
 
-.news{
-  border: 5px solid black;
+.logo img{
+  width: 70px;
+  height: 60px;
+  margin-right: 12px;
+}
+
+.logo span{
+  color: MediumAquamarine;
+  border: 1px solid black;
+}
+
+header nav{
+padding-right: 40px;
+}
+
+nav span{
+  display: inline-block;
+  padding: 20px 10px;
 }
 
 a{
   color: black;
-  display: flex;
-}
-
-nav{
-  display: inline-block;
 }
