@@ -53,6 +53,7 @@ div{
 }
 
 /*content*/
+/* arranging*/
 .content{
   display: flex;
   padding-top: 116px;
@@ -77,3 +78,23 @@ div{
 .column.small{
   width: 240px;
 }
+
+/*formatting*/
+body{
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.image-content{
+font-weight: bold;
+font-size:30px;
+color: white;
+}
+
+.top-story .image-content{
+  background-image: image(recourses/images/top-story);
+  font-size: 40px;
+}
+
+.
